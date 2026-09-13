@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Llewellyn Smith — Mechanical Engineering Portfolio</title>
+  <meta name="description" content="Mechanical engineering portfolio featuring design, FEA, and manufacturing projects.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#top" class="logo">Alex Llewellyn Smith</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/Alexander Llewellyn Smith - Dartmouth 2025-2026 Resume copy.pdf" class="btn-resume" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Mechanical Engineering · Dartmouth College 2028</p>
+      <h1>Alex Llewellyn Smith</h1>
+      <p class="hero-subtitle">
+        Mechanical engineering student focused on
+        mechanical design, and manufacturing
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="section-inner">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <img src="assets/images/Headshot 2.jpeg" alt="Alex Llewellyn Smith" class="about-photo">
+        <div class="about-text">
+          <p>I am a junior at Dartmouth College studying Mechanical Engineering and minoring in French. I enjoy product design, manufacturing, and problem solving. Outside of class, I snowboard and surf when possible, love watching the NFL and college football, and enjoy tinkering with, and driving, cars.</p>
+          <dl class="about-facts">
+            <div><dt>School</dt><dd>Dartmouth College</dd></div>
+            <div><dt>Discipline</dt><dd>Mechanical Engineering</dd></div>
+            <div><dt>Graduation</dt><dd>June 2028</dd></div>
+            <div><dt>Location</dt><dd>San Diego, California</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>CAD & Simulation</h3>
+          <ul><li>SolidWorks</li><li>Autodesk Inventor</li><li>FEA</li><li>SAP2000</li></ul>
+        </div>
+        <div class="skill-category">
+          <h3>Manufacturing</h3>
+          <ul><li>3D Printing</li><li>Laser Cutting</li><li>Laser Engraving</li></ul>
+        </div>
+        <div class="skill-category">
+          <h3>Analysis</h3>
+          <ul><li>FEA</li><li>MATLAB</li><li>Python</li></ul>
+        </div>
+        <div class="skill-category">
+          <h3>Other</h3>
+          <ul><li>Project Management</li><li>Geometric Dimensioning and Tolerancing (GD&T)</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Selected Projects</h2>
+
+      <!-- Filter buttons (optional; wire up in script.js) -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="fea">FEA / Analysis</button>
+        <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+        <button class="filter-btn" data-filter="3Dprinting">3D Printing</button>
+        <button class="filter-btn" data-filter="lasercut">Laser Cutting</button>
+      </div>
+
+      <div class="project-grid">
+
+        <a href="projects/ENGS29.html" class="project-card" data-tags="design 3Dprinting lasercut">
+          <div class="project-thumb">
+            <img src="assets/images/Dino Photo.jpg" alt="Dino Fashion Show thumbnail">
+          </div>
+          <div class="project-card-body">
+            <span class="project-number">01</span>
+            <h3>Dino Fashion Show</h3>
+            <p>Developed a kinematic walking path and subsequent 6-bar linkage for a robotic dinosaur.</p>
+            <div class="project-tags">
+              <span class="tag">Design</span>
+              <span class="tag">3D Printing</span>
+              <span class="tag">Laser Cutting</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="projects/CommonLands.html" class="project-card" data-tags="design manufacturing 3Dprinting">
+          <div class="project-thumb">
+            <img src="assets/images/CommonLands.jpeg" alt="Commonlands thumbnail">
+          </div>
+          <div class="project-card-body">
+            <span class="project-number">02</span>
+            <h3>Commonlands Optics</h3>
+            <p>MTF tested lenses and developed manufacturing methods for assembly line production.</p>
+            <div class="project-tags">
+              <span class="tag">Design</span>
+              <span class="tag">Manufacturing</span>
+              <span class="tag">3D Printing</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="projects/ENGS33.html" class="project-card" data-tags="design fea lasercut">
+          <div class="project-thumb">
+            <img src="assets/images/final bridge build.png" alt="[Project Name] thumbnail">
+          </div>
+          <div class="project-card-body">
+            <span class="project-number">03</span>
+            <h3>Scale Bridge</h3>
+            <p>Iteratively designed a scale wooden bridge using SolidWorks FEA that was then tested under Instron.</p>
+            <div class="project-tags">
+              <span class="tag">Design</span>
+              <span class="tag">FEA/Analysis</span>
+              <span class="tag">Laser Cutting</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project Card Template — duplicate this block per project -->
+    <!--
+        <a href="projects/project-template.html" class="project-card" data-tags="design fea">
+          <div class="project-thumb">
+            <img src="assets/images/project1-thumb.jpg" alt="[Project Name] thumbnail">
+          </div>
+          <div class="project-card-body">
+            <span class="project-number">01</span>
+            <h3>[Project Name]</h3>
+            <p>[One-line description — what it is, key result or spec.]</p>
+            <div class="project-tags">
+              <span class="tag">[Tag]</span>
+              <span class="tag">[Tag]</span>
+              <span class="tag">[Tag]</span>
+            </div>
+          </div>
+        </a>
+    -->
+        <!-- Copy the <a class="project-card"> block above for each additional project -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="section-inner">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-links">
+        <a href="mailto:afllewellynsmith@gmail.com">afllewellynsmith@gmail.com</a>
+        <a href="https://www.linkedin.com/in/alexander-llewellyn-smith/" target="_blank">LinkedIn</a>
+        <a href="assets/Alexander Llewellyn Smith - Dartmouth 2025-2026 Resume copy.pdf" target="_blank">Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Alexander Llewellyn Smith.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

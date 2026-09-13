@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scale Bridge — Alex Llewellyn Smith</title>
+  <meta name="description" content="Wooden scale bridge group project using SolidWorks FEA.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="../index.html" class="logo">Alex Llewellyn Smith</a>
+      <a href="../index.html#projects" class="back-link">← All Projects</a>
+    </nav>
+  </header>
+
+  <main class="project-detail">
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+      <p class="project-eyebrow">ENGS 33 - Solid Mechanics · Dartmouth College</p>
+      <h1>Scale Bridge</h1>
+      <p class="project-tagline">Iteratively designed a scale wooden bridge using SolidWorks FEA that was then tested under Instron.</p>
+      <dl class="project-meta">
+        <div><dt>Duration</dt><dd>July 2026 - August 2026</dd></div>
+        <div><dt>Type</dt><dd>Group</dd></div>
+        <div><dt>Tools</dt><dd>SolidWorks · FEA · Laser Cutting · SAP2000</dd></div>
+      </dl>
+    </section>
+
+    <!-- Hero image -->
+    <img class="project-hero-img" src="../assets/images/final bridge build.png" alt="Scale Bridge hero image">
+
+    <!-- Overview -->
+    <section class="project-section">
+      <h2>Overview</h2>
+      <p>Tasked with creating a bridge out of 3mm and 6mm plywood using SAP2000 and SolidWorks Finite Element Analysis. Developped novel design incorporating mixture of 3mm and 6mm plywood by stacking trusses in high stress areas. Ultimately created a bridge with the second lowest mass and lowest deflection to mass ratio in the class.</p>
+    </section>
+
+    <!-- Key Specs -->
+    <section class="project-section project-results">
+      <h2>Results</h2>
+      <div class="results-grid">
+        <div class="spec"><span class="spec-value">4.2 kN</span><span class="spec-label">Load Supported</span></div>
+        <div class="spec"><span class="spec-value">0.171 mm</span><span class="spec-label">Deflection</span></div>
+        <div class="spec"><span class="spec-value">306.9 g</span><span class="spec-label">Mass</span></div>
+      </div>
+    </section>
+
+    <!-- Responsibilities -->
+    <section class="project-section">
+      <h2>Responsibilities</h2>
+      <ol class="responsibility-list">
+        <li>Designed and tested bridge designs in SAP2000</li>
+        <li>Built SAP2000 design as a SolidWorks assembly</li>
+        <li>Ran Finite Element Analysis and iteratively redesigned bridge based on results</li>
+        <li>Laser cut and glued pieces to build bridge and test in Instron machine</li>
+      </ol>
+    </section>
+
+    <!-- Iteration (v1 -> v2) -->
+    <section class="project-section">
+      <h2>Iteration</h2>
+      <div class="iteration-block">
+        <h3>Hand Drawing <span class="tag-superseded">Superseded</span></h3>
+        <img src="../assets/images/Bridge1.jpeg" alt="Hand Drawing">
+        <ul><li>Hand drawing combining designs by each group member inspired by research each of us did</li></ul>
+      </div>
+      <div class="iteration-block">
+        <h3>SAP2000 Design <span class="tag-superseded">Superseded</span></h3>
+        <img src="../assets/images/Bridge2.png" alt="SAP2000 Drawing">
+        <ul><li>Final SAP2000 design showing tension (blue) and compression (red) on each member</li>
+        <li>Developed through iterative testing of member thickness, truss height, and truss design</li>
+        </ul>
+      </div>
+      <div class="iteration-block">
+        <h3>SolidWorks Design <span class="tag-active">Current</span></h3>
+        <img src="../assets/images/Solidoworks FEA.png" alt="SolidWorks FEA">
+        <ul><li>The final Finite Element Analysis of the bridge showing stress concentrations</li></ul>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="project-section project-results">
+      <h2>Bridge Failure</h2>
+      <div class="results-grid">
+        <img src="../assets/images/BrigeFailure.png" alt="Bridge Failure">
+      </div>
+      <p>The bridge suffered from buckling in the top members that didn't have canopies. This aided in shearing the glue bond between the crossmember and the truss.</p>
+    </section>
+
+    <!-- Nav to next project -->
+    <nav class="project-nav">
+      <a href="CommonLands.html" class="prev">← Previous Project</a>
+      <a href="ENGS29.html" class="next">Next Project →</a>
+    </nav>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Alexander Llewellyn Smith.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
